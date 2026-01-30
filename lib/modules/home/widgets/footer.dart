@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:ismartfund_mobile/modules/home/heper/data.dart';
 import 'package:ismartfund_mobile/theme/app_colors.dart';
@@ -176,6 +177,8 @@ class FooterSection extends StatelessWidget {
             color: AppColors.primary,
             fontWeight: FontWeight.w400,
           ),
+
+          //   verticalSpace(10),
         ],
       ),
     );
